@@ -1,11 +1,8 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
   }
-
-
-
-
 
 
 body {
@@ -13,9 +10,6 @@ body {
     color: #39a6b2;
     font-family: Helvetica, Arial, sans-serif;
   }
-
-
-
 
 
 
@@ -27,9 +21,6 @@ body {
 
 
 
-
-
-
   header h1 {
     font-weight: bold;
     font-size: 36px;
@@ -38,10 +29,10 @@ body {
     display: inline;
   }
   
+
   header a {
     color: #fce138;
   }
-
 
 
   header a {
@@ -50,13 +41,10 @@ body {
   }
 
 
-
-
   header nav {
     float: right;
     margin: 7px 0;
   }
-
 
 
   header nav ul li {
@@ -64,9 +52,40 @@ body {
   }
 
 
-
   header nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
     font-size: 22px;
   }
+
+
+
+/* footer*/
+
+
+  footer {
+    background: #fce138;
+    width: 100%;
+    padding: 40px 35px;
+  }
+
+
+  footer h2 {
+    display: inline;
+    color: #024e76;
+    font-size: 30px;
+    margin: 0;
+  }
+
+
+  footer div {
+    float: right;
+    line-height: 1.5;
+    text-align: right;
+  }
+
+
+  footer a {
+    color: #024e76;
+  }
+
