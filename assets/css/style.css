@@ -186,15 +186,6 @@ section {
 }
 
 
-.section-title { 
-    font-size: 55px;
-    color: #024e76;
-    border-bottom: 3px solid;
-    padding-bottom: 20px;
-    text-align: center;
-    margin: 0 auto 35px auto;
-    width: 50%;
-}
 
 .primary-border {
     border-color: #fce138;
@@ -292,7 +283,7 @@ section {
 }
 
 .flex-row {
-    display: flex;
+    display: ;
 }
 
 .trainer-bio h3 {
